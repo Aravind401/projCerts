@@ -6,4 +6,4 @@ COPY ./index.php ./
 
 # Expose port 80 for web traffic
 EXPOSE 3000
-CMD["php","-S","0.0.0.0:3000"]
+CMD ["php","-S","0.0.0.0:3000"]
